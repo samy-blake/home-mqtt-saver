@@ -1,0 +1,20 @@
+{
+  "name": "home-mqtt-saver",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "level": "^8.0.1",
+    "mqtt": "^5.10.0"
+  }
+}
